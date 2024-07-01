@@ -1,0 +1,180 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "editor.snippetSuggestions": "top",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "json.schemas": [],
+  "workbench.iconTheme": "catppuccin-mocha",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "git.autofetch": true,
+  "editor.cursorBlinking": "expand",
+  "git.confirmSync": false,
+  "scm.inputFontFamily": "JetBrainsMono Nerd Font Mono",
+  "chat.editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "notebook.output.fontFamily": "JetBrainsMono Nerd Font Mono",
+
+  // Font size
+  "editor.fontSize": 20,
+  "terminal.integrated.fontSize": 16,
+
+  // ui
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+
+  //apc config
+
+  "apc.activityBar": {
+    "size": 28
+  },
+  "apc.font.family": "JetBrainsMono Nerd Font Mono",
+  "apc.monospace.font.family": "JetBrainsMono Nerd Font Mono",
+  "apc.statusBar": {
+    "height": 28,
+    "fontSize": 12
+  },
+  "apc.electron": {},
+  "apc.listRow": {
+    "lists": ["explorer-folders-view", "quick-input-list", "results"],
+    "height": 28
+  },
+
+  // Toggle excluded files
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "**/node_modules": false,
+    "**/.next": false,
+    "**/.husky": false,
+    "**/drizzle": false,
+    "**/dist": false,
+    "**/.todo.md": false,
+    "**/.vscode": false,
+    "**/.eslintrc.cjs": false,
+    "**/.editorconfig": false,
+    "**/.gitignore": false,
+    "**/.lintstagedrc.mjs": false,
+    "**/.markdownlint.json": false,
+    "**/.markdownlintignore": false,
+    "**/.prettierignore": false,
+    "**/bun.lockb": false,
+    "**/cspell.json": false,
+    "**/package-lock.json": false,
+    "**/pnpm-lock.yaml": false,
+    "**/next-env.d.ts": false,
+    "**/postcss.config.cjs": false,
+    "**/prettier.config.js": false,
+    "**/README.md": false,
+    "**/next.config.js": false,
+    "**/tailwind.config.ts": false,
+    "**/drizzle.config.ts": false,
+    "**/migrate.ts": false,
+    "**/.env.example": false
+  },
+
+  // Misc
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "toggleexcludedfiles.explorer.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true,
+  "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
+  "cmake.showOptionsMovedNotification": false,
+  "apc.parts.font.family": {},
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "top",
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///c:/Users/Maaz/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+  ],
+  "indentRainbow.colors": [
+    "rgba(53, 80, 112,0.15)",
+    "rgba(109, 89, 122,0.15)",
+    "rgba(181, 101, 118, 0.15)",
+    "rgba(229, 107, 111,0.15)",
+    "rgba(234, 172, 139,0.15)",
+    "rgba(234, 172, 139,0.1)",
+    "rgba(234, 172, 139,0.05)"
+  ],
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "console-ninja.captureFunctions": true,
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "animations.Enabled": false,
+  "update.mode": "manual",
+
+  // we try to make semantic highlighting look good
+  "editor.semanticHighlighting.enabled": true,
+  // prevent VSCode from modifying the terminal colors
+  "terminal.integrated.minimumContrastRatio": 1,
+  // make the window's titlebar use the workbench colors
+  "window.titleBarStyle": "custom",
+  // applicable if you use Go, this is an opt-in flag!
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.stickyScroll.enabled": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "svelte.enable-ts-plugin": true,
+  "window.customTitleBarVisibility": "auto",
+  "terminal.integrated.env.linux": {},
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "git.openRepositoryInParentFolders": "never"
+}
