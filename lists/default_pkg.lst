@@ -51,8 +51,11 @@ visual-studio-code-bin
 neovim
 ark
 zsh
-lsd
+eza
 fzf
+fd
+zoxide
+bat
 cava
 fcitx5
 fcitx5-qt
