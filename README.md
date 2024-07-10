@@ -65,6 +65,7 @@ The theme used throughout is Catppuccin with Mocha variant.
     <tr><td>dunst</td><td>graphical notification daemon</td></tr>
     <tr><td>rofi-lbonn-wayland-git</td><td>app launcher</td></tr>
     <tr><td>waybar-hyprland-git</td><td>status bar</td></tr>
+    <tr><td>hyprshade</td><td>Blue Light Filter</td></tr>
     <tr><td>swww</td><td>wallpaper app</td></tr>
     <tr><td>swaylock-effects-git</td><td>lockscreen</td></tr>
     <tr><td>wlogout</td><td>logout screen</td></tr>
@@ -117,7 +118,10 @@ The theme used throughout is Catppuccin with Mocha variant.
 <table><tr><td>
     <code>s</code><br><code>h</code><br><code>e</code><br><code>l</code><br><code>l</code></td><td><table>
     <tr><td>zsh</td><td>main shell</td></tr>
-    <tr><td>lsd</td><td>colorful file lister</td></tr>
+    <tr><td>eza</td><td>colorful file lister</td></tr>
     <tr><td>fzf</td><td>command line fuzzy finder</td></tr>
+    <tr><td>fd</td><td>command line fuzzy finder</td></tr>
+    <tr><td>bat</td><td>cat but colorful</td></tr>
+    <tr><td>zoxide</td><td>cd replacement</td></tr>
     <tr><td>cava</td><td>audio visualizer</td></tr></table>
 </td></tr></table>
