@@ -1,118 +1,105 @@
 {
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "editor.fontLigatures": true,
-  "editor.mouseWheelZoom": true,
-  "editor.snippetSuggestions": "top",
-  "launch": {
-    "configurations": [],
-    "compounds": []
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "prompt",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "window.zoomLevel": 1,
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html"
-  },
-  "json.schemas": [],
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // Theme
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.wordWrap": "on",
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
-  "git.autofetch": true,
-  "editor.cursorBlinking": "expand",
-  "git.confirmSync": false,
-  "scm.inputFontFamily": "JetBrainsMono Nerd Font Mono",
-  "chat.editor.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font Mono",
-  "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "notebook.output.fontFamily": "JetBrainsMono Nerd Font Mono",
+
+  // Change font
+  "editor.fontFamily": "GeistMono Nerd Font",
+  "scm.inputFontFamily": "GeistMono Nerd Font",
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+  "chat.editor.fontFamily": "GeistMono Nerd Font",
+  "debug.console.fontFamily": "GeistMono Nerd Font",
+  "editor.codeLensFontFamily": "GeistMono Nerd Font",
+  "notebook.output.fontFamily": "GeistMono Nerd Font",
+  "markdown.preview.fontFamily": "GeistMono Nerd Font",
+  "editor.inlayHints.fontFamily": "GeistMono Nerd Font",
 
   // Font size
-  "editor.fontSize": 20,
-  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
 
   // ui
   "editor.minimap.enabled": false,
+  "window.commandCenter": false,
   "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "native",
   "editor.scrollbar.horizontal": "auto",
 
-  //apc config
-
+  // APC
   "apc.activityBar": {
-    "size": 28
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 32
   },
-  "apc.font.family": "JetBrainsMono Nerd Font Mono",
-  "apc.monospace.font.family": "JetBrainsMono Nerd Font Mono",
+  "apc.electron": {
+    "titleBarStyle": "hidden",
+    "frame": false
+  },
+  "apc.font.family": "GeistMono Nerd Font",
+  "apc.monospace.font.family": "GeistMono Nerd Font",
   "apc.statusBar": {
+    "position": "editor-bottom",
     "height": 28,
     "fontSize": 12
   },
-  "apc.electron": {},
-  "apc.listRow": {
-    "lists": ["explorer-folders-view", "quick-input-list", "results"],
-    "height": 28
+
+  // Cusom css
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".container > .title": "display: none !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    ".split-view-view .visible": "background-color: #110f17 !important",
+    ".composite.title": "display: block !important",
+    ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important"
   },
 
   // Toggle excluded files
   "files.exclude": {
-    "**/.git": false,
-    "**/.svn": false,
-    "**/.hg": false,
-    "**/CVS": false,
-    "**/.DS_Store": false,
-    "**/Thumbs.db": false,
-    "**/node_modules": false,
-    "**/.next": false,
-    "**/.husky": false,
-    "**/drizzle": false,
-    "**/dist": false,
-    "**/.todo.md": false,
-    "**/.vscode": false,
-    "**/.eslintrc.cjs": false,
-    "**/.editorconfig": false,
-    "**/.gitignore": false,
-    "**/.lintstagedrc.mjs": false,
-    "**/.markdownlint.json": false,
-    "**/.markdownlintignore": false,
-    "**/.prettierignore": false,
-    "**/bun.lockb": false,
-    "**/cspell.json": false,
-    "**/package-lock.json": false,
-    "**/pnpm-lock.yaml": false,
-    "**/next-env.d.ts": false,
-    "**/postcss.config.cjs": false,
-    "**/prettier.config.js": false,
-    "**/README.md": false,
-    "**/next.config.js": false,
-    "**/tailwind.config.ts": false,
-    "**/drizzle.config.ts": false,
-    "**/migrate.ts": false,
-    "**/.env.example": false
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true,
+    "**/drizzle": true,
+    "**/dist": true,
+    "**/.todo.md": true,
+    "**/.vscode": true,
+    "**/.eslintrc.cjs": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true,
+    "**/.lintstagedrc.mjs": true,
+    "**/.markdownlint.json": true,
+    "**/.markdownlintignore": true,
+    "**/.prettierignore": true,
+    "**/bun.lockb": true,
+    "**/cspell.json": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/next-env.d.ts": true,
+    "**/postcss.config.cjs": true,
+    "**/prettier.config.js": true,
+    "**/README.md": true,
+    "**/next.config.js": true,
+    "**/tailwind.config.ts": true,
+    "**/drizzle.config.ts": true,
+    "**/migrate.ts": true,
+    "**/.env.example": true
   },
 
   // Misc
   "workbench.startupEditor": "none",
-  "explorer.compactFolders": false,
   "editor.tabSize": 2,
   "editor.linkedEditing": true,
   "breadcrumbs.filePath": "off",
@@ -122,59 +109,20 @@
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
-  "toggleexcludedfiles.explorer.enabled": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "redhat.telemetry.enabled": true,
-  "workbench.settings.applyToAllProfiles": ["terminal.integrated.fontFamily"],
-  "cmake.showOptionsMovedNotification": false,
-  "apc.parts.font.family": {},
-  "window.commandCenter": false,
-  "workbench.activityBar.location": "top",
+  "window.zoomLevel": 0.25,
+  "terminal.integrated.env.linux": {},
   "animations.Install-Method": "Apc Customize UI++",
   "apc.imports": [
-    "file:///c:/Users/Maaz/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
   ],
-  "indentRainbow.colors": [
-    "rgba(53, 80, 112,0.15)",
-    "rgba(109, 89, 122,0.15)",
-    "rgba(181, 101, 118, 0.15)",
-    "rgba(229, 107, 111,0.15)",
-    "rgba(234, 172, 139,0.15)",
-    "rgba(234, 172, 139,0.1)",
-    "rgba(234, 172, 139,0.05)"
-  ],
-  "terminal.integrated.env.windows": {},
-  "console-ninja.featureSet": "Community",
-  "console-ninja.captureFunctions": true,
-  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
-    "live-server": true
+  "animations.Default-Duration": 250,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "animations.Enabled": false,
-  "update.mode": "manual",
-
-  // we try to make semantic highlighting look good
-  "editor.semanticHighlighting.enabled": true,
-  // prevent VSCode from modifying the terminal colors
-  "terminal.integrated.minimumContrastRatio": 1,
-  // make the window's titlebar use the workbench colors
-  "window.titleBarStyle": "custom",
-  // applicable if you use Go, this is an opt-in flag!
-  "gopls": {
-    "ui.semanticTokens": true
-  },
+  "explorer.compactFolders": false,
+  "console-ninja.featureSet": "Community",
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.stickyScroll.enabled": true,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "svelte.enable-ts-plugin": true,
-  "window.customTitleBarVisibility": "auto",
-  "terminal.integrated.env.linux": {},
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "git.openRepositoryInParentFolders": "never"
+  "editor.wordWrap": "on"
 }

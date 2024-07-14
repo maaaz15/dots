@@ -39,5 +39,29 @@
     "key": "shift+alt+up",
     "command": "-editor.action.insertCursorAbove",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "-workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
   }
 ]
